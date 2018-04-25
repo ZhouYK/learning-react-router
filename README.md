@@ -7,12 +7,12 @@
 <pre>
     react-router静态路由，需要在固定的地方（嵌套在Router内），按规定的格式(要有固定的属性)进行注册。
     路由需要显示的声明在Router的children中，并且按照固定的格式
-    <Router history={history}>
-        <Route path='/' component={App}>
-            <Route path='/list' component={List}></Route>
+    &lt;Router history={history}>
+        &lt;Route path='/' component={App}>
+            &lt;Route path='/list' component={List}&lt;/Route&gt;
             <自定义组件 path='/customer' component={() => {return '自定义组件'}}> </自定义组件>
-        </Route>
-    </Router>
+        &lt;/Route&gt;
+    &lt;/Router&gt;
 </pre>
 
 ### 地址变化监听
@@ -38,10 +38,10 @@
     render会返回一个和组件结构一致的plain object：
 
     jsx:
-        &ltdiv className="app"&gt;
-           &ltModal&gt;我不知道&lt/Modal&gt;
-           &ltModal&gt;我知道&lt/Modal&gt;
-        &lt/div&gt;
+        &lt;div className="app"&gt;
+           &lt;Modal&gt;我不知道&lt/Modal&gt;
+           &lt;Modal&gt;我知道&lt/Modal&gt;
+        &lt;/div&gt;
 
     plain object: {
         type: "div",
