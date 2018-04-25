@@ -37,10 +37,15 @@
 
     render会返回一个和组件结构一致的plain object：
 
-    jsx: <div className="app" >
+    jsx:
+
+        ```html
+        <div className="app" >
            <Modal>我不知道</Modal>
            <Modal>我知道</Modal>
         </div>
+        ```
+
     plain object: {
         type: "div",
         props: {
