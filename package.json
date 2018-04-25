@@ -1,0 +1,12 @@
+{
+  "name": "learning-react-router",
+  "version": "0.0.1",
+  "author": "ink",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhouYK/learning-react-router.git"
+  },
+  "dependencies": {
+    "react-router": "^4.2.0"
+  }
+}
