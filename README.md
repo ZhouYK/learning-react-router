@@ -38,13 +38,10 @@
     render会返回一个和组件结构一致的plain object：
 
     jsx:
-
-        ```html
-        <div className="app" >
-           <Modal>我不知道</Modal>
-           <Modal>我知道</Modal>
-        </div>
-        ```
+        &ltdiv className="app"&gt;
+           &ltModal&gt;我不知道&lt/Modal&gt;
+           &ltModal&gt;我知道&lt/Modal&gt;
+        &lt/div&gt;
 
     plain object: {
         type: "div",
